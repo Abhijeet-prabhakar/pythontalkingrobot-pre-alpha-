@@ -52,6 +52,8 @@ elif whatyouwannabecome == 'thef':
     print('NO! dont do bad things:(')
 elif whatyouwannabecome == 'kidnapper':
     print('NO! dont do bad things:(')
+elif whatyouwannabecome == 'no':
+    print('what do you even mean by no?')
 
 whatyoudoforliving = input('what do you do for living')
 if whatyoudoforliving =='student':
@@ -60,7 +62,18 @@ elif whatyoudoforliving =='teacher':
     print('you guys are just awesome keep doing this good work and also thanks to inspire students like me:) thankyou')
 elif whatyoudoforliving =='programmer':
     print('people think what the freak we do all the time on the computer but we only know the true happiness behind it')
+elif whatyoudoforliving == 'no':
+    print('what do you event mean by no i just asked you what you do for living')
 else:
     print('you guys are just awesome keep doing this good work and also Thanks!')
+
+doyoulikesports = input('do you like sports?')
+if doyoulikesports =='yes':
+    whichsportyoulike = input('thats nice which sport you like?')
+    print(whichsportyoulike,"is a good sport")
+elif doyoulikesports == 'no':
+    print('sad but i like sports:) ')
+
+
 
 
