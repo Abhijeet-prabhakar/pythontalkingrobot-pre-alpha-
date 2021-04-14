@@ -69,10 +69,39 @@ else:
 
 doyoulikesports = input('do you like sports?')
 if doyoulikesports =='yes':
-    whichsportyoulike = input('thats nice which sport you like?')
+    whichsportyoulike = input('thats nice which sport you like? ')
     print(whichsportyoulike,"is a good sport")
 elif doyoulikesports == 'no':
     print('sad but i like sports:) ')
+elif doyoulikesports == 'nah':
+    print('sad but i like sports:) ')
+elif doyoulikesports == 'yea':
+    print('yes i like sports to')
+else:
+     print('plz input in yes/no in this question''ok bye we will meet in the next coversation')
+    #canyouplzansinyesanno = input('do you like sports')
+#if canyouplzansinyesanno == 'yes':
+   #print('yea i like sports too', name)
+#elif canyouplzansinyesanno == 'no':
+    #print('but i like sports but nevermind')
+#else:
+    #print('but i like sports but nevermind')
+
+  # doyoulikesports1 = input('do you like sports')
+   #print(doyoulikesports1,'is a good sport')
+#elif canyouplzansinyesanno == 'no':
+   #whyyoudontlikesports = input('why dont you like sports')
+   #print(whyyoudontlikesports,'thats a valid reason')
+#elif doyoulikesports == 'nah':
+   # print('sad but i like sports:)',name )
+   # whyyoudontlikesports = input('why dont you like sports')
+   #print(whyyoudontlikesports, 'thats a valid reason')
+#elif doyoulikesports == 'yea':
+   # print('sad but i like sports:) ')
+   #doyoulikesports1 = input('do you like sports')
+   # print(doyoulikesports1, 'is a good sport')
+whatyousayattheendofthecoversation = input('what you says at the end of the coversation')
+print('ok', whatyousayattheendofthecoversation)
 
 
 
